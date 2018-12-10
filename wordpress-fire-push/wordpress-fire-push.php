@@ -4,17 +4,17 @@
  * The plugin bootstrap file
  *
  *
- * @link              https://github.com/hypericumimpex/hyp-push/
+ * @link              https://welaunch.io/plugins/fire-push/
  * @since             1.0.0
  * @package           WordPress_Fire_Push
  *
  * @wordpress-plugin
- * Plugin Name:       HYP Push
- * Plugin URI:        https://github.com/hypericumimpex/hyp-push/
- * Description:       Hypericum Firebase Web Push Notificari...  
+ * Plugin Name:       WordPress Fire Push
+ * Plugin URI:        https://welaunch.io/plugins/fire-push/
+ * Description:       The All in One WordPress Web Push Notification Solution
  * Version:           1.1.1
- * Author:            Romeo C.
- * Author URI:        https://github.com/hypericumimpex/
+ * Author:            weLaunch
+ * Author URI:        https://welaunch.io
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       wordpress-fire-push
