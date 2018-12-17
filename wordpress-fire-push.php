@@ -12,7 +12,7 @@
  * Plugin Name:       HYP Push
  * Plugin URI:        https://github.com/hypericumimpex/hyp-push/
  * Description:       Hypericum Firebase Web Push Notificari...  
- * Version:           1.1.1
+ * Version:           1.1.2
  * Author:            Romeo C.
  * Author URI:        https://github.com/hypericumimpex/
  * License:           GPL-2.0+
@@ -72,7 +72,7 @@ function run_WordPress_Fire_Push() {
 }
 
 include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
-if ( is_plugin_active('redux-framework/redux-framework.php') || is_plugin_active('redux-dev/redux-framework.php')){
+if ( is_plugin_active('redux-framework/redux-framework.php') || is_plugin_active('redux-dev-master/redux-framework.php')){
 	run_WordPress_Fire_Push();
 } else {
 	add_action( 'admin_notices', 'run_WordPress_Fire_Push_Not_Installed' );

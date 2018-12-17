@@ -26,7 +26,7 @@ if (! class_exists('Redux')) {
 		'use_cdn' => true,
 		'dev_mode' => false,
 		'display_name' => __('WordPress Fire Push', 'wordpress-fire-push'),
-		'display_version' => '1.1.1',
+		'display_version' => '1.1.2',
 		'page_title' => __('WordPress Fire Push', 'wordpress-fire-push'),
 		'update_notice' => true,
 		'intro_text' => '',

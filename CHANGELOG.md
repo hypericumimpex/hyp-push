@@ -1,5 +1,10 @@
 # Changelog
 ======
+1.1.2
+======
+- FIX:	Bug when on Publish not working
+
+======
 1.1.1
 ======
 - FIX:	Updating / Publishing posts sent die
@@ -37,13 +42,13 @@
 ======
 1.0.4
 ======
-- NEW:	Multiple CURL support
+- NEW:	Muliple CURL support
 - FIX:	Performance tweak when too many user ids
 
 ======
 1.0.3
 ======
-- FIX:	Notifications not send out when user roles were
+- FIX:	Notficiations not send out when user roles were
 		empty in backend
 - FIX: 	Trashed posts notifications
 

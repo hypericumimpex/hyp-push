@@ -129,6 +129,11 @@ class WordPress_Fire_Push_Sender extends WordPress_Fire_Push
             return false;
         }
 
+        if ( !get_post_meta( $post_id, 'firstpublish', true ) ) {
+            update_post_meta( $post_id, 'firstpublish', true );
+            $update = false;
+        }
+
         for ($i=1; $i <= 4; $i++) {  
 
             $action = 'wpNotification' . $i;
